@@ -9,6 +9,7 @@ heroku3
 httpx
 lyricsgenius
 motor
+numpy
 OpsAi
 pillow==9.5.0
 psutil
