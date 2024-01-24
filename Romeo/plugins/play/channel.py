@@ -17,7 +17,7 @@ async def playmode_(client, message: Message, _):
     if (str(query)).lower() == "disable":
         await set_cmode(message.chat.id, None)
         return await message.reply_text(_["cplay_7"])
-    elif str(query) == "linked":
+    elif str(query) == "link":
         chat = await app.get_chat(message.chat.id)
         if chat.linked_chat:
             chat_id = chat.linked_chat.id
